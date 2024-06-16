@@ -1,0 +1,35 @@
+﻿.rodape {
+  display: flex;
+  justify-content: space-around;
+  min-height: 10rem;
+  background-color: #6278F7;
+  color: #F7F7F7;
+}
+
+.rodape div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.rodape div:nth-of-type(1) img {
+  max-width: 80%;
+}
+
+.rodape div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape div:nth-of-type(2) img {
+  max-width: 100%;
+}
+
+.rodape div:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
